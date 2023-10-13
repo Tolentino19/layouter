@@ -18,7 +18,7 @@ def create_layout(image_paths, output_folder, selected_dpi, selected_format, mer
     a4_width = int(a4_width_inches * a4_dpi)
     a4_height = int(a4_height_inches * a4_dpi)
 
-    # Tamanho de cada imagem em pixels (63.5mm x 88.9mm a 1200 DPI)
+    # Tamanho de cada imagem em pixels (63.5mm x 88.9mm)
     img_width = int(2.652 * a4_dpi)  # 63.5mm em polegadas
     img_height = int(3.494 * a4_dpi)  # 88.9mm em polegadas
 
